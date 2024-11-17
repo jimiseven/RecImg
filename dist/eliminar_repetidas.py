@@ -42,7 +42,7 @@ def eliminar_imagenes_repetidas(folder_path, threshold=0.95):
     print(f"Proceso finalizado. Total de imágenes eliminadas: {total_eliminadas}")
 
 # Configuración
-folder_path = "../reset/diapos5c"  # Cambia esto por la ruta de tu carpeta con imágenes
-threshold = 0.80  # Ajusta este valor según el nivel de similitud deseado (0.95 es muy estricto) (menos elimina cualquier similitud)
+folder_path = "../reset/diapos2"  # Cambia esto por la ruta de tu carpeta con imágenes
+threshold = 0.95  # Ajusta este valor según el nivel de similitud deseado (0.95 es muy estricto)
 
 eliminar_imagenes_repetidas(folder_path, threshold)
